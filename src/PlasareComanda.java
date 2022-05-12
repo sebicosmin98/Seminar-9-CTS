@@ -11,17 +11,13 @@ public class PlasareComanda implements iState{
             instanta = new PlasareComanda();
 
         }
-        else{
 
-            return instanta;
-        }
-
-        return null;
+        return instanta;
     }
 
     private void sendMessage(){
 
-        System.out.println("Comanda cu succes!");
+        System.out.println("Comanda plasata cu succes!");
 
     }
 
