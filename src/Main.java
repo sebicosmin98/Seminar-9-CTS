@@ -4,7 +4,7 @@ public class Main {
 
                                                         // STATE
 
-        OrderContext o1 = new OrderContext(1,"Pizza", PlacedOrder.getInstance());
+        ContextComanda o1 = new ContextComanda(1,"Pizza", PlasareComanda.getInstance());
 
         o1.nextState();
 

@@ -1,6 +1,6 @@
 public interface iState {
 
 
-    void updateState(OrderContext orderContext);
+    void updateStare(ContextComanda contextComanda);
 
 }
